@@ -1,5 +1,11 @@
 # Changelog for Meteor Mogul mogul-app
 
+## 0.0.2 (2018-01-02)
+
+### Added
+
+Usage instructions to README.
+
 ## 0.0.1 (2018-01-02)
 
 ### Added
