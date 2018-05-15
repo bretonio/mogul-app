@@ -1,11 +1,36 @@
-<head>
-  <title>Meteor Mogul app</title>
-</head>
-
 <body>
 
-  <h1>Meteor Mogul app running</h1>
+  <div id="app"></div>
 
-  <div id="app">{{ message }}</div>
+  <script type="text/x-template" id="app-template">
+    <v-app>
+      <v-navigation-drawer
+        app
+        v-model="showDrawer"
+        >
+        <info></info>
+        <router-link to="/foo">Go to Foo</router-link>
+        <router-link to="/bar">Go to Bar</router-link>
+      </v-navigation-drawer>
+      <v-toolbar app>
+        <v-toolbar-side-icon
+          @click="showDrawer = !showDrawer"
+          ></v-toolbar-side-icon>
+        <v-toolbar-title>Meteor Mogul app running</v-toolbar-title>
+        <v-spacer></v-spacer>
+        <v-toolbar-items>
+          <account-login></account-login>
+        </v-toolbar-items>
+      </v-toolbar>
+      <v-content>
+        <v-container fluid>
+          <hello></hello>
+          <div>Router view: <router-view></router-view></div>
+        </v-container>
+      </v-content>
+      <v-footer app></v-footer>
+    </v-app>
+  </script>
+
 
 </body>
