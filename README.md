@@ -1,18 +1,14 @@
-# mogul-app
+# muddy
 
-Scaffolding for a new Meteor Mogul app.
+First alpha of Future Maine sustainability app.
 
 ## Usage
 
-1. Fork repository.
-1. Clone.
-1. Develop.
-
-After you have forked to a repository you control, you can clone and run your app with the following commands:
+This is a Meteor Mogul app being developed on GitLab.
 
 ```
-$ git clone https://github.com/<path>/<to>/<your-repo.git>
-$ cd <your-repo>
+$ git clone https://gitlab.com/FutureMaine/muddy.git
+$ cd muddy
 $ meteor npm install
 $ meteor
 ```
