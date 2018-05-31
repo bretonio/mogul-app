@@ -1,4 +1,4 @@
-# Changelog for Meteor Mogul mogul-app
+# Changelog for Future Maine muddy app
 
 ## 0.0.5 (2018-05-31)
 

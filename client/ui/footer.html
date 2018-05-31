@@ -1,0 +1,32 @@
+<body>
+  <script type="text/x-template" id="fm-footer-template">
+    <v-footer height="auto" class="grey">
+      <v-layout row wrap align-center justify-center>
+        <v-flex text-xs-center justify-center xs12>
+            <router-link to="/handbook">Handbook</router-link>
+            |
+            <router-link to="/forum">Forum</router-link>
+            |
+            <router-link to="/newsletter">Newsletter</router-link>
+            |
+            <router-link to="/events">Events</router-link>
+            |
+            <router-link to="/seminars">Seminars</router-link>
+        </v-flex>
+        <v-flex text-xs-center justify-center xs12>
+            <router-link to="/about">About Future Maine</router-link>
+            |
+            <router-link to="/join">Join</router-link>
+            |
+            <router-link to="/refer">Refer</router-link>
+        </v-flex>
+        <v-flex text-xs-center xs12>
+          Version: {{ version }}
+        </v-flex>
+        <v-flex text-xs-center xs12>
+          Copyright &copy; 2018 Future Maine, LLC
+        </v-flex>
+      </v-layout>
+    </v-footer>
+  </script>
+</body>
