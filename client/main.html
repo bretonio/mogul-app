@@ -8,21 +8,29 @@
         app
         v-model="showDrawer"
         >
-        <fm-menu></fm-menu>
+        <info></info>
+        <router-link to="/foo">Go to Foo</router-link>
+        <router-link to="/bar">Go to Bar</router-link>
       </v-navigation-drawer>
       <v-toolbar app>
         <v-toolbar-side-icon
           @click="showDrawer = !showDrawer"
           ></v-toolbar-side-icon>
-        <v-toolbar-title>Future Maine</v-toolbar-title>
+        <v-toolbar-title>Meteor Mogul app running</v-toolbar-title>
         <v-spacer></v-spacer>
-        <fm-toolbar></fm-toolbar>
+        <v-toolbar-items>
+          <account-login></account-login>
+        </v-toolbar-items>
       </v-toolbar>
       <v-content>
-        <router-view></router-view>
+        <v-container fluid>
+          <hello></hello>
+          <div>Router view: <router-view></router-view></div>
+        </v-container>
       </v-content>
-      <fm-footer></fm-footer>
+      <v-footer app></v-footer>
     </v-app>
   </script>
+
 
 </body>
