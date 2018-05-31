@@ -1,5 +1,9 @@
 # Changelog for Meteor Mogul mogul-app
 
+## 0.0.5 (2018-05-31)
+
+- Fixing commit of Future Maine muddy app by mistake.
+
 ## 0.0.4 (2018-05-31)
 
 - vue meteor tracker to allow use of Meteor's tracker
